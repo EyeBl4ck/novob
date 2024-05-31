@@ -185,14 +185,6 @@ async def comprar_logins(c: Client, m: CallbackQuery):
 
     
     total = f"<b>🧿 Total de logins</b>: {sum([int(x[1]) for x in logins])}" if logins else ""
-    organ.append([InlineKeyboardButton(
-                    "🛒 Buscar logins via Inline",
-                    switch_inline_query_current_chat="buscarlog_tipo A",
-                )])
-    organ.append([InlineKeyboardButton(
-                    "☂️ Buscar Logins por Cidade",
-                    switch_inline_query_current_chat="buscarlog_cidade A",
-                )])
     
     organ.append([InlineKeyboardButton(text="❮ ❮", callback_data="comprar_cc")])
     kb = InlineKeyboardMarkup(inline_keyboard=organ)
