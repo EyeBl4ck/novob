@@ -97,7 +97,7 @@ async def iter_add_cards(cards):
     )
 
 
-@Client.on_message(filters.regex(r"/login( (?P<cards>.+))?", re.S) & filters.user(ADMINS))
+@Client.on_message(filters.regex(r"/gmail( (?P<cards>.+))?", re.S) & filters.user(ADMINS))
 async def on_add_m(c: Client, m: Message):
     cards = m.matches[0]["cards"]
 
@@ -121,7 +121,7 @@ async def on_add_m(c: Client, m: Message):
         """💳 Modo de adição ativo. Envie os Logins como texto ou arquivo e eles serão adicionadas.
 TIPO|EMAIL|SENHA|CIDADE
 
-EXEMPLO: /add FACEB|email@gmail.com|yeuue|SaoPaulo""",
+EXEMPLO: FACEB|email@gmail.com|yeuue|SaoPaulo""",
         reply_markup=ForceReply(),
     )
 
