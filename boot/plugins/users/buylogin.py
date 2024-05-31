@@ -43,7 +43,7 @@ async def comprar_logins_list(c: Client, m: CallbackQuery):
     kb = InlineKeyboardMarkup(
         inline_keyboard=[
             [
-                InlineKeyboardButton("📰 COMPRAR", callback_data="comprar_login unit"),
+                InlineKeyboardButton("📰 Login Gmail", callback_data="comprar_login unit"),
             #    InlineKeyboardButton("🛒 MIX", callback_data="comprar_logins mix"),
                 
                 
@@ -58,7 +58,7 @@ async def comprar_logins_list(c: Client, m: CallbackQuery):
     )
 
     await m.edit_message_text(
-        f"""<a href='https://i.ibb.co/r0jsL20/IMG-20230712-135120-982.jpg'</a><b>🎟️ Comprar Logins</b>
+        f"""<a href='https://i.ibb.co/r0jsL20/IMG-20230712-135120-982.jpg'</a><b>🎟️ Comprar Gmail</b>
 <i>- Escolha abaixo o produto que deseja comprar.</i>
 
 {get_info_wallet(m.from_user.id)}""",
@@ -156,7 +156,7 @@ async def comprar_logins(c: Client, m: CallbackQuery):
 
     if not levels_list:
         return await m.answer(
-            "⚠️ Não há logins disponíveis no momento, tente novamente mais tarde.",
+            "⚠️ Não há Gmail disponíveis no momento, tente novamente mais tarde.",
             show_alert=True,
         )
 
@@ -184,13 +184,13 @@ async def comprar_logins(c: Client, m: CallbackQuery):
     ).fetchall()
 
     
-    total = f"<b>🧿 Total de logins</b>: {sum([int(x[1]) for x in logins])}" if logins else ""
+    total = f"<b>🧿 Total de Gmail</b>: {sum([int(x[1]) for x in logins])}" if logins else ""
     
     organ.append([InlineKeyboardButton(text="❮ ❮", callback_data="comprar_cc")])
     kb = InlineKeyboardMarkup(inline_keyboard=organ)
     await m.edit_message_text(
-        f"""<b>👾 Comprar Logins Unitário</b>
-<b>- Qual o tipo de LOGIN que você deseja comprar?</b>
+        f"""<b>👾 Comprar Gmail</b>
+<b>- Escolha abaixo seu Login Gmail</b>
 
 {total}
 
@@ -216,7 +216,7 @@ async def buy_off_logins(c: Client, m: CallbackQuery):
 
     if balance < price:
         return await m.answer(
-            "⚠️ Você não possui saldo suficiente para esse item. Por favor, faça uma transferência.",
+            "⚠️ Você não possui saldo suficiente para esse item. Por favor, faça um /pix.",
             show_alert=True,
         )
 
@@ -273,7 +273,7 @@ async def buy_off_logins(c: Client, m: CallbackQuery):
                     inline_keyboard=[
                         [
                             InlineKeyboardButton(
-                                text="🎟 Compre os melhores Logins",url=f"https://t.me/Savitarstoresbot"
+                                text="🎟 Compre os melhores Logins",url=f"https://t.me/LojinhaBetano_bot"
                             ),
                         ],
                     ]
