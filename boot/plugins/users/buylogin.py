@@ -52,7 +52,7 @@ async def comprar_logins_list(c: Client, m: CallbackQuery):
 
              
             [
-                InlineKeyboardButton("❮ ❮", callback_data="shop"),
+                InlineKeyboardButton("❮ ❮", callback_data="comprar_contas"),
             ],
         ]
     )
@@ -186,7 +186,7 @@ async def comprar_logins(c: Client, m: CallbackQuery):
     
     total = f"<b>🧿 Total de Gmail</b>: {sum([int(x[1]) for x in logins])}" if logins else ""
     
-    organ.append([InlineKeyboardButton(text="❮ ❮", callback_data="shop")])
+    organ.append([InlineKeyboardButton(text="❮ ❮", callback_data="comprar_contas")])
     kb = InlineKeyboardMarkup(inline_keyboard=organ)
     await m.edit_message_text(
         f"""<b>👾 Comprar Gmail</b>
@@ -283,7 +283,7 @@ async def buy_off_logins(c: Client, m: CallbackQuery):
     kb = InlineKeyboardMarkup(
         inline_keyboard=[
             [
-                InlineKeyboardButton(text="❮ ❮", callback_data="shop"),
+                InlineKeyboardButton(text="❮ ❮", callback_data="comprar_contas"),
             ],
         ]
     )
