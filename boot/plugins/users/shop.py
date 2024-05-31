@@ -77,7 +77,7 @@ async def shop(c: Client, m: Union[Message, CallbackQuery]):
                  InlineKeyboardButton("🪪 PRODUTOS", callback_data="comprar_log"),
             ],
              [
-          #       InlineKeyboardButton("LOGINS", callback_data="comprar_log"),
+                 InlineKeyboardButton("🪪 VALES", callback_data="comprar_vale"),
              ],
              [
       #           InlineKeyboardButton("🎰 CHK/SEPARADOR", callback_data="ferramenta"),
