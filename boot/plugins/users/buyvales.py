@@ -185,14 +185,6 @@ async def comprar_vales(c: Client, m: CallbackQuery):
 
     
     total = f"\n\n<b>🧿 Total de Vales</b>: {sum([int(x[1]) for x in logins])}" if logins else ""
-    organ.append([InlineKeyboardButton(
-                    "🛒 Buscar Vales via Inline",
-                    switch_inline_query_current_chat="buscarva_tipo A",
-                )])
-    organ.append([InlineKeyboardButton(
-                    "☂️ Buscar Vales por Cidade",
-                    switch_inline_query_current_chat="buscarva_cidade Paulo",
-                )])
     
     organ.append([InlineKeyboardButton(text="❮ ❮", callback_data="comprar_vale")])
     kb = InlineKeyboardMarkup(inline_keyboard=organ)
