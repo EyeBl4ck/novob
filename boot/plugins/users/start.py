@@ -60,7 +60,7 @@ async def start(c: Client, m: Union[Message, CallbackQuery]):
     kb = InlineKeyboardMarkup(
         inline_keyboard=[
             [
-                InlineKeyboardButton("🛒 Comprar Logins", callback_data="shop"),
+                InlineKeyboardButton("🛒 Comprar Produtos", callback_data="shop"),
             
             
 			],
@@ -80,7 +80,7 @@ InlineKeyboardButton("☃️ Perfil", callback_data="user_info"),
         "SELECT main_img, channel_user, support_user FROM bot_config WHERE ROWID = 0"
     ).fetchone()
 
-    start_message = f"""‌<a href='{bot_logo}'>&#8204</a><b><b> 🛒 | Lojinha Betano - {BOT_LINK}
+    start_message = f"""‌<a>&#8204</a><b><b> 🛒 | Lojinha Betano - {BOT_LINK}
 	
 🛒 - @LojinhaBetanoBot
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -88,9 +88,8 @@ InlineKeyboardButton("☃️ Perfil", callback_data="user_info"),
 ⚠️ Testada na hora pelo bot!
 💰 Faça recargas pelo /pix!
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
-🟢 GRUPO @SavitarGgstore
-🟢 CANAL @SavitarRefsCanal
-💳💳💳💳💳💳💳💳💳💳💳💳
+🟢 BOT ONLINE
+
 PARA QUALQUER DÚVIDA, ENTRE EM CONTATO : @Lonsepo"""
 
     if isinstance(m, CallbackQuery):
