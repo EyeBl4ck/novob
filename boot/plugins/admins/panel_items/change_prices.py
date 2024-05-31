@@ -56,7 +56,7 @@ async def change_prices(c: Client, m: CallbackQuery):
             ],
             [
         InlineKeyboardButton("🔀 MIX LOGINS", callback_data="change_price1 loginsmix"),
-        InlineKeyboardButton("🛍 VALES", callback_data="change_price vales"),
+        InlineKeyboardButton("🛍 VALES", callback_data="change_price2 vales"),
             ],
             
             [
