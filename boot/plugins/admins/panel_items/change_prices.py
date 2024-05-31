@@ -51,21 +51,21 @@ async def change_prices(c: Client, m: CallbackQuery):
     kb = InlineKeyboardMarkup(
         inline_keyboard=[
             [
-                InlineKeyboardButton("💳 UNITARIO", callback_data="change_price unit"),
-                InlineKeyboardButton("🔀 MIX", callback_data="change_price mix"),
+              #  InlineKeyboardButton("💳 UNITARIO", callback_data="change_price unit"),
+               # InlineKeyboardButton("🔀 MIX", callback_data="change_price mix"),
             ],
             [
-        InlineKeyboardButton("🔀 MIX LOGINS", callback_data="change_price1 loginsmix"),
-        InlineKeyboardButton("🛍 VALES", callback_data="change_price2 vales"),
+      #  InlineKeyboardButton("🔀 MIX LOGINS", callback_data="change_price1 loginsmix"),
+        InlineKeyboardButton("🛍 DADOS CPF LIVRE", callback_data="change_price2 vales"),
             ],
             
             [
-                InlineKeyboardButton("🔐 BIN", callback_data="change_price bin"),
-                InlineKeyboardButton("📨 DOC", callback_data="change_prices_doc"),
+              #  InlineKeyboardButton("🔐 BIN", callback_data="change_price bin"),
+              #  InlineKeyboardButton("📨 DOC", callback_data="change_prices_doc"),
             ],  
-            [InlineKeyboardButton("🛍 FULL", callback_data="change_pricefull full"),
-                 InlineKeyboardButton("💸 LOGINS", callback_data="change_prices1"),],
-                 [InlineKeyboardButton("🛍 CONTAS", callback_data="change_pricesfull"),],
+            [#InlineKeyboardButton("🛍 FULL", callback_data="change_pricefull full"),
+                 InlineKeyboardButton("💸 GMAIL", callback_data="change_prices1"),],
+                 [InlineKeyboardButton("🛍 BETANO", callback_data="change_price contas"),],
                 [InlineKeyboardButton("❮ ❮", callback_data="painel")],
         ]
     )
