@@ -72,12 +72,12 @@ async def shop(c: Client, m: Union[Message, CallbackQuery]):
         inline_keyboard=[
             [
                 InlineKeyboardButton(
-                    "📲 MENU GGS", callback_data="comprar_cc"
+                    "📲 CONTAS BETANO", callback_data="comprar_contas"
                 ),
-                 InlineKeyboardButton("🪪 PRODUTOS", callback_data="comprar_log"),
+                 InlineKeyboardButton("🪪 GMAIL", callback_data="comprar_log"),
             ],
              [
-                 InlineKeyboardButton("🪪 VALES", callback_data="comprar_vale"),
+                 InlineKeyboardButton("🪪 DADOS CPF LIVRE", callback_data="comprar_vale"),
              ],
              [
       #           InlineKeyboardButton("🎰 CHK/SEPARADOR", callback_data="ferramenta"),
