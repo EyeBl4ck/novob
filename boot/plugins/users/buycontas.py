@@ -190,7 +190,7 @@ async def comprar_contas(c: Client, m: CallbackQuery):
     organ.append([InlineKeyboardButton(text="❮ ❮", callback_data="comprar_contas")])
     kb = InlineKeyboardMarkup(inline_keyboard=organ)
     await m.edit_message_text(
-        f"""<b>👾 Comprar Contas Betao</b>
+        f"""<b>👾 Comprar Contas Betano</b>
 
 <i>- Qual o tipo de Contas Betano que você deseja comprar?</i>
 
