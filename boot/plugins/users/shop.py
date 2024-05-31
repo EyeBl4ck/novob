@@ -77,7 +77,7 @@ async def shop(c: Client, m: Union[Message, CallbackQuery]):
                  InlineKeyboardButton("🪪 PRODUTOS", callback_data="comprar_log"),
             ],
              [
-        #         InlineKeyboardButton("LOGINS", callback_data="comprar_log"),
+          #       InlineKeyboardButton("LOGINS", callback_data="comprar_log"),
              ],
              [
       #           InlineKeyboardButton("🎰 CHK/SEPARADOR", callback_data="ferramenta"),
@@ -96,9 +96,8 @@ async def shop(c: Client, m: Union[Message, CallbackQuery]):
         "SELECT main_img, channel_user, support_user FROM bot_config WHERE ROWID = 0"
     ).fetchone()
 
-    start_message = f"""‌<b>{m.from_user.first_name},</b>
-	
-🎖 Comprar 🎖
+    start_message = f"""‌Seja bem vindo,<b>{m.from_user.first_name}.</b>
+    🎖 Comprar 🎖
 - Escolha no menu abaixo o que você quer comprar.
      
 
