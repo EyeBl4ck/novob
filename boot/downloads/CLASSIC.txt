@@ -1,0 +1,50 @@
+Aprovadas âž” 4660690029100345|5|2028|018 âž” âž” Retorno: [ CartÃ£o Debitou 1.50R$ ðŸ’° ]Tempo de Resposta: (7 SEG) âž” EL DIABO CENTER/b>
+Aprovadas âž” 4660690029105286|5|2028|018 âž” âž” Retorno: [ CartÃ£o Debitou 1.50R$ ðŸ’° ]Tempo de Resposta: (7 SEG) âž” EL DIABO CENTER/b>
+Aprovadas âž” 4660690029107092|5|2028|018 âž” âž” Retorno: [ CartÃ£o Debitou 1.50R$ ðŸ’° ]Tempo de Resposta: (6 SEG) âž” EL DIABO CENTER/b>
+Aprovadas âž” 4660690029105013|5|2028|018 âž” âž” Retorno: [ CartÃ£o Debitou 1.50R$ ðŸ’° ]Tempo de Resposta: (6 SEG) âž” EL DIABO CENTER/b>
+Aprovadas  4660690029109064|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029105807|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029100675|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029167435|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029185916|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029123180|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (8 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029106532|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (8 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029132710|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (8 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029132710|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029107928|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029194801|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029197234|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (8 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029121598|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029186310|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (8 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029109452|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029131902|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (8 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029193605|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029105294|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029171908|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (8 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029186310|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029145738|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029128015|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (8 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029119832|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (7 SEG)  EL DIABO CENTER/b>
+Aprovadas  4660690029150126|5|2028|018   Retorno: [ Cartão Debitou 1.50R$  ]Tempo de Resposta: (8 SEG)  EL DIABO CENTER/b>
+4660690029148658|05|2028|552 | Bandeira:  | Tipo:  | Nivel:  | Banco:   | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029185270|05|2028|378 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029188514|05|2028|607 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029187706|05|2028|877 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029133353|05|2028|724 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029163046|05|2028|160 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029144343|05|2028|356 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029171536|05|2028|677 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029197150|05|2028|018 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco: Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029179521|05|2028|018 | Bandeira: | Tipo: | Nivel: | Banco: | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029179281|05|2028|018 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029153427|05|2028|018 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029117638|05|2028|018 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029165397|05|2028|018 | Bandeira:  | Tipo:  | Nivel:  | Banco:   | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029171569|05|2028|018 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029164127|05|2028|018 | Bandeira:  | Tipo:  | Nivel:  | Banco:   | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029105963|05|2028|018 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029152460|05|2028|018 | Bandeira:  | Tipo:  | Nivel:  | Banco:   | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029141398|05|2028|018 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029107639|05|2028|018 | Bandeira: visa | Tipo: credit | Nivel: Traditional | Banco:  Brazil | Retorno: Transação autorizada (00) | DISNEY TOOLS
+4660690029157634|05|2028|018 | Bandeira:  | Tipo:  | Nivel:  | Banco:   | Retorno: Transação autorizada (00) | DISNEY TOOLS
+ 

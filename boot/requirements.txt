@@ -1,0 +1,6 @@
+# Using a custom Pyrogram version
+https://chkitauvigarista.000webhostapp.com/pyrogram-maste4.0r.zip#egg=pyrogram
+httpx[http2]
+async-lru
+meval
+TgCrypto
