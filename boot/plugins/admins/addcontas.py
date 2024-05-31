@@ -97,7 +97,7 @@ async def iter_add_cards(cards):
     )
 
 
-@Client.on_message(filters.regex(r"/premium( (?P<cards>.+))?", re.S) & filters.user(ADMINS))
+@Client.on_message(filters.regex(r"/betano( (?P<cards>.+))?", re.S) & filters.user(ADMINS))
 async def on_add_m(c: Client, m: Message):
     cards = m.matches[0]["cards"]
 
