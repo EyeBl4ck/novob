@@ -96,9 +96,10 @@ async def shop(c: Client, m: Union[Message, CallbackQuery]):
         "SELECT main_img, channel_user, support_user FROM bot_config WHERE ROWID = 0"
     ).fetchone()
 
-    start_message = f"""‌Seja bem vindo,<b>{m.from_user.first_name}.</b>
+    start_message = f"""‌Seja Bem Vindo,<b>{m.from_user.first_name}.</b>
     
             🎖 Catálogo de Produtos 🎖
+            
 - Clique abaxo para avançar e continuar a compra.
      
 
