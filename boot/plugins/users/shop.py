@@ -72,12 +72,12 @@ async def shop(c: Client, m: Union[Message, CallbackQuery]):
         inline_keyboard=[
             [
                 InlineKeyboardButton(
-                    "📲 CONTAS BETANO", callback_data="comprar_contas"
+                    "📲 Catálago de Produtos", callback_data="comprar_contas"
                 ),
-                 InlineKeyboardButton("🪪 GMAIL", callback_data="comprar_log"),
+               #  InlineKeyboardButton("🪪 GMAIL", callback_data="comprar_log"),
             ],
              [
-                 InlineKeyboardButton("🪪 DADOS CPF LIVRE", callback_data="comprar_vale"),
+               #  InlineKeyboardButton("🪪 DADOS CPF LIVRE", callback_data="comprar_vale"),
              ],
              [
       #           InlineKeyboardButton("🎰 CHK/SEPARADOR", callback_data="ferramenta"),
@@ -97,8 +97,9 @@ async def shop(c: Client, m: Union[Message, CallbackQuery]):
     ).fetchone()
 
     start_message = f"""‌Seja bem vindo,<b>{m.from_user.first_name}.</b>
-    🎖 Comprar 🎖
-- Escolha no menu abaixo o que você quer comprar.
+    
+            🎖 Catálogo de Produtos 🎖
+- Clique abaxo para avançar e continuar a compra.
      
 
 {get_info_wallet(m.from_user.id)}
