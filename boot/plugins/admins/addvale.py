@@ -27,7 +27,7 @@ async def iter_add_cards(cards):
     dup = []
     now = datetime.now()
     for row in re.finditer(
-        r"(?P<tipo>[\w\s/]+)\s*[\|]\s*(?P<email>[\w\s/]+)\s*[\|]\s*(?P<senha>[\w\s/]+)\s*[\|]\s*(?P<limite>\w+)\s*[\|]\s*(?P<cpf>[\w\s/]+)\s*[\|]\s*(?P<cidade>[\w\s/]+)",
+        r"(?P<tipo>.+?)\s*\|\s*(?P<email>.+?)\s*\|\s*(?P<senha>.+?)\s*\|\s*(?P<limite>\w+)\s*\|\s*(?P<cpf>\w+)\s*\|\s*(?P<cidade>.+)",
         cards,
     ):
         total += 1
