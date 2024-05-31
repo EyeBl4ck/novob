@@ -33,6 +33,7 @@ async def panel(c: Client, m: Union[Message, CallbackQuery]):
             ],
             [
                 InlineKeyboardButton("🎃 Dobro saldo", callback_data="dobro"),
+		InlineKeyboardButton("📊 Estoque vale", callback_data="stockvales vales"),
             ],
             [
                 InlineKeyboardButton("👤 Usuários", switch_inline_query_current_chat="search_user "),
