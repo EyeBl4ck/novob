@@ -136,6 +136,12 @@ CREATE TABLE IF NOT EXISTS pricesvales(
     price NUMERIC                              -- Preço do item, ex.: 10
 );
 
+CREATE TABLE IF NOT EXISTS contas(
+    price_name TEXT,                           -- Nome do preço, ex.: Gold, 550209. Em caso de MIX é a quantidade
+    price_type TEXT,                           -- Tipo do preço, ex.: UNIT, BIN, MIX, etc
+    price NUMERIC                              -- Preço do item, ex.: 10
+);
+
 
 -- Tabela para o dobro de saldo do bot --
 CREATE TABLE IF NOT EXISTS dobrosaldo(
