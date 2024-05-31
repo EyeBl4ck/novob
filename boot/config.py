@@ -26,15 +26,15 @@ GRUPO_PUB = 4212604276
 WORKERS = 20
 
 # Admins can access panel and add new materials to the bot.
-ADMINS = [476727347]
+ADMINS = [476727347, 6840540201]
 
 # Sudoers have full access to the server and can execute commands.
-SUDOERS = [476727347]
+SUDOERS = [476727347, 6840540201]
 
 # All sudoers should be admins too
 ADMINS.extend(SUDOERS)
 
-GIFTERS = [476727347]
+GIFTERS = [476727347, 6840540201]
 
 # Bote o Username do bot sem o @
 # Exemplo: default
