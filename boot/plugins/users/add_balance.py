@@ -26,7 +26,7 @@ async def add_saldo(c: Client, m: CallbackQuery):
                 InlineKeyboardButton(
                     "💠 Pix automático", callback_data="add_saldo_auto"
                 ),
-                InlineKeyboardButton("🤖 Pix manual", callback_data="add_saldo_manual"),
+             #   InlineKeyboardButton("🤖 Pix manual", callback_data="add_saldo_manual"),
                 
             ],
             [
