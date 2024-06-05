@@ -152,7 +152,7 @@ async def search_contas(c: Client, m: InlineQuery):
 # Opção Compra de logins e Listagem de Level's.
 @Client.on_callback_query(filters.regex(r"^comprar_contas unit$"))
 async def comprar_contas(c: Client, m: CallbackQuery):
-    list_levels_contas = cur.execute("SELECT tipo FROM contas GROUP BY tipo").fetchall()
+    list_levels_contas = cur.execute("SELECT type FROM contas GROUP BY type").fetchall()
     levels_list = [x[0] for x in list_levels_contas]
 
     if not levels_list:
